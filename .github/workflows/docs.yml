@@ -1,0 +1,12 @@
+name: docs
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint docs
+        run: npx --yes markdownlint-cli2 "docs/**/*.md" "README.md"
