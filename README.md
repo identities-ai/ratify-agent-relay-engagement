@@ -10,4 +10,4 @@ What will happen here during the engagement:
 
 Nothing production-critical lives here, but everything will be real: public history, real CI, a real pull request.
 
-Once the engagement runs, every claim will be re-verifiable offline from the reproduction harness at [`identities-ai/ratify-agent-relay-harness`](https://github.com/identities-ai/ratify-agent-relay-harness), with any of the five Ratify SDKs.
+Once the engagement and the joint review are complete, the reproduction harness and the evidence trail will be published, so that every claim made here can be re-verified offline with any of the five Ratify SDKs.
